@@ -13,6 +13,13 @@
 		38697B781CC5E241002AAC88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38697B771CC5E241002AAC88 /* Assets.xcassets */; };
 		38697B861CC5E241002AAC88 /* SolveDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38697B851CC5E241002AAC88 /* SolveDemoTests.m */; };
 		38697B911CC5E241002AAC88 /* SolveDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38697B901CC5E241002AAC88 /* SolveDemoUITests.m */; };
+		38697BA01CC621D8002AAC88 /* LYJTabBarVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 38697B9F1CC621D8002AAC88 /* LYJTabBarVc.m */; };
+		38697BA71CC628AA002AAC88 /* LYJEssenceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 38697BA61CC628AA002AAC88 /* LYJEssenceVC.m */; };
+		38697BAA1CC628B7002AAC88 /* LYJNewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 38697BA91CC628B7002AAC88 /* LYJNewVC.m */; };
+		38697BAD1CC628D4002AAC88 /* LYJFriendTrendsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 38697BAC1CC628D4002AAC88 /* LYJFriendTrendsVC.m */; };
+		38697BB01CC628F2002AAC88 /* LYJMeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 38697BAF1CC628F2002AAC88 /* LYJMeVC.m */; };
+		38697BB51CC63D00002AAC88 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 38697BB41CC63D00002AAC88 /* UIView+Extension.m */; };
+		38697BB81CC63F30002AAC88 /* LYJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 38697BB71CC63F30002AAC88 /* LYJTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,21 @@
 		38697B8C1CC5E241002AAC88 /* SolveDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolveDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38697B901CC5E241002AAC88 /* SolveDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolveDemoUITests.m; sourceTree = "<group>"; };
 		38697B921CC5E241002AAC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38697B9E1CC621D8002AAC88 /* LYJTabBarVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYJTabBarVc.h; sourceTree = "<group>"; };
+		38697B9F1CC621D8002AAC88 /* LYJTabBarVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYJTabBarVc.m; sourceTree = "<group>"; };
+		38697BA51CC628AA002AAC88 /* LYJEssenceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYJEssenceVC.h; sourceTree = "<group>"; };
+		38697BA61CC628AA002AAC88 /* LYJEssenceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYJEssenceVC.m; sourceTree = "<group>"; };
+		38697BA81CC628B7002AAC88 /* LYJNewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYJNewVC.h; sourceTree = "<group>"; };
+		38697BA91CC628B7002AAC88 /* LYJNewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYJNewVC.m; sourceTree = "<group>"; };
+		38697BAB1CC628D4002AAC88 /* LYJFriendTrendsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYJFriendTrendsVC.h; sourceTree = "<group>"; };
+		38697BAC1CC628D4002AAC88 /* LYJFriendTrendsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYJFriendTrendsVC.m; sourceTree = "<group>"; };
+		38697BAE1CC628F2002AAC88 /* LYJMeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYJMeVC.h; sourceTree = "<group>"; };
+		38697BAF1CC628F2002AAC88 /* LYJMeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYJMeVC.m; sourceTree = "<group>"; };
+		38697BB11CC63C57002AAC88 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		38697BB31CC63D00002AAC88 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		38697BB41CC63D00002AAC88 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		38697BB61CC63F30002AAC88 /* LYJTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYJTabBar.h; sourceTree = "<group>"; };
+		38697BB71CC63F30002AAC88 /* LYJTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYJTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +119,20 @@
 		38697B6A1CC5E241002AAC88 /* SolveDemo */ = {
 			isa = PBXGroup;
 			children = (
+				38697BB21CC63CA3002AAC88 /* Categories */,
 				38697B6E1CC5E241002AAC88 /* AppDelegate.h */,
 				38697B6F1CC5E241002AAC88 /* AppDelegate.m */,
 				38697B711CC5E241002AAC88 /* ViewController.h */,
 				38697B721CC5E241002AAC88 /* ViewController.m */,
+				38697B9E1CC621D8002AAC88 /* LYJTabBarVc.h */,
+				38697B9F1CC621D8002AAC88 /* LYJTabBarVc.m */,
+				38697BB61CC63F30002AAC88 /* LYJTabBar.h */,
+				38697BB71CC63F30002AAC88 /* LYJTabBar.m */,
+				38697BB11CC63C57002AAC88 /* PrefixHeader.pch */,
+				38697BA11CC6285B002AAC88 /* Essence */,
+				38697BA41CC62868002AAC88 /* New */,
+				38697BA21CC62868002AAC88 /* FriendTrends */,
+				38697BA31CC62868002AAC88 /* Me */,
 				38697B6B1CC5E241002AAC88 /* Supporting Files */,
 			);
 			path = SolveDemo;
@@ -132,6 +164,51 @@
 				38697B921CC5E241002AAC88 /* Info.plist */,
 			);
 			path = SolveDemoUITests;
+			sourceTree = "<group>";
+		};
+		38697BA11CC6285B002AAC88 /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				38697BA51CC628AA002AAC88 /* LYJEssenceVC.h */,
+				38697BA61CC628AA002AAC88 /* LYJEssenceVC.m */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		38697BA21CC62868002AAC88 /* FriendTrends */ = {
+			isa = PBXGroup;
+			children = (
+				38697BAB1CC628D4002AAC88 /* LYJFriendTrendsVC.h */,
+				38697BAC1CC628D4002AAC88 /* LYJFriendTrendsVC.m */,
+			);
+			path = FriendTrends;
+			sourceTree = "<group>";
+		};
+		38697BA31CC62868002AAC88 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				38697BAE1CC628F2002AAC88 /* LYJMeVC.h */,
+				38697BAF1CC628F2002AAC88 /* LYJMeVC.m */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		38697BA41CC62868002AAC88 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				38697BA81CC628B7002AAC88 /* LYJNewVC.h */,
+				38697BA91CC628B7002AAC88 /* LYJNewVC.m */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		38697BB21CC63CA3002AAC88 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				38697BB31CC63D00002AAC88 /* UIView+Extension.h */,
+				38697BB41CC63D00002AAC88 /* UIView+Extension.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +273,7 @@
 		38697B601CC5E241002AAC88 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LYJ;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = hyp;
 				TargetAttributes = {
@@ -263,8 +341,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38697BB51CC63D00002AAC88 /* UIView+Extension.m in Sources */,
+				38697BA71CC628AA002AAC88 /* LYJEssenceVC.m in Sources */,
+				38697BAA1CC628B7002AAC88 /* LYJNewVC.m in Sources */,
+				38697BAD1CC628D4002AAC88 /* LYJFriendTrendsVC.m in Sources */,
+				38697BA01CC621D8002AAC88 /* LYJTabBarVc.m in Sources */,
+				38697BB81CC63F30002AAC88 /* LYJTabBar.m in Sources */,
 				38697B731CC5E241002AAC88 /* ViewController.m in Sources */,
 				38697B701CC5E241002AAC88 /* AppDelegate.m in Sources */,
+				38697BB01CC628F2002AAC88 /* LYJMeVC.m in Sources */,
 				38697B6D1CC5E241002AAC88 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,8 +473,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SolveDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = SolveDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hyp.SolveDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -404,8 +490,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SolveDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = SolveDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hyp.SolveDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -480,6 +567,7 @@
 				38697B971CC5E241002AAC88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38697B981CC5E241002AAC88 /* Build configuration list for PBXNativeTarget "SolveDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +576,7 @@
 				38697B9A1CC5E241002AAC88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38697B9B1CC5E241002AAC88 /* Build configuration list for PBXNativeTarget "SolveDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +585,7 @@
 				38697B9D1CC5E241002AAC88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

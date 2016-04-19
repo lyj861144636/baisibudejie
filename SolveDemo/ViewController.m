@@ -22,6 +22,7 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    self.view.frame = CGRectMake(0, 0, ScreenWidth, ScreenWidth);
 }
 
 @end

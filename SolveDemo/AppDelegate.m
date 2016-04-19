@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LYJTabBarVc.h"
 #import "ViewController.h"
 
 @interface AppDelegate ()
@@ -22,9 +23,8 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     
-    ViewController *vc = [[ViewController alloc] init];
-    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:vc];
-    self.window.rootViewController = navi;
+    UITabBarController *tabBarVc = [[LYJTabBarVc alloc] init];
+    self.window.rootViewController = tabBarVc;
     [self.window makeKeyAndVisible];
     
     return YES;
