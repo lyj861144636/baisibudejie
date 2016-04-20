@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		385098F11CC757EF006D998C /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 385098F01CC757EF006D998C /* UIBarButtonItem+Extension.m */; };
+		385098F81CC75CF5006D998C /* LYJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 385098F41CC75CF5006D998C /* LYJTabBar.m */; };
+		385098F91CC75CF5006D998C /* LYJTabBarVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 385098F61CC75CF5006D998C /* LYJTabBarVc.m */; };
+		385098FC1CC774CC006D998C /* LYJNaviVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 385098FB1CC774CC006D998C /* LYJNaviVc.m */; };
+		385098FE1CC78FE5006D998C /* FriendTrends.xib in Resources */ = {isa = PBXBuildFile; fileRef = 385098FD1CC78FE5006D998C /* FriendTrends.xib */; };
 		38697B6D1CC5E241002AAC88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38697B6C1CC5E241002AAC88 /* main.m */; };
 		38697B701CC5E241002AAC88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38697B6F1CC5E241002AAC88 /* AppDelegate.m */; };
-		38697B731CC5E241002AAC88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38697B721CC5E241002AAC88 /* ViewController.m */; };
 		38697B781CC5E241002AAC88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38697B771CC5E241002AAC88 /* Assets.xcassets */; };
 		38697B861CC5E241002AAC88 /* SolveDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38697B851CC5E241002AAC88 /* SolveDemoTests.m */; };
 		38697B911CC5E241002AAC88 /* SolveDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38697B901CC5E241002AAC88 /* SolveDemoUITests.m */; };
-		38697BA01CC621D8002AAC88 /* LYJTabBarVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 38697B9F1CC621D8002AAC88 /* LYJTabBarVc.m */; };
 		38697BA71CC628AA002AAC88 /* LYJEssenceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 38697BA61CC628AA002AAC88 /* LYJEssenceVC.m */; };
 		38697BAA1CC628B7002AAC88 /* LYJNewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 38697BA91CC628B7002AAC88 /* LYJNewVC.m */; };
 		38697BAD1CC628D4002AAC88 /* LYJFriendTrendsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 38697BAC1CC628D4002AAC88 /* LYJFriendTrendsVC.m */; };
 		38697BB01CC628F2002AAC88 /* LYJMeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 38697BAF1CC628F2002AAC88 /* LYJMeVC.m */; };
 		38697BB51CC63D00002AAC88 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 38697BB41CC63D00002AAC88 /* UIView+Extension.m */; };
-		38697BB81CC63F30002AAC88 /* LYJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 38697BB71CC63F30002AAC88 /* LYJTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +42,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		385098EF1CC757EF006D998C /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		385098F01CC757EF006D998C /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		385098F31CC75CF5006D998C /* LYJTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYJTabBar.h; sourceTree = "<group>"; };
+		385098F41CC75CF5006D998C /* LYJTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYJTabBar.m; sourceTree = "<group>"; };
+		385098F51CC75CF5006D998C /* LYJTabBarVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYJTabBarVc.h; sourceTree = "<group>"; };
+		385098F61CC75CF5006D998C /* LYJTabBarVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYJTabBarVc.m; sourceTree = "<group>"; };
+		385098FA1CC774CC006D998C /* LYJNaviVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYJNaviVc.h; sourceTree = "<group>"; };
+		385098FB1CC774CC006D998C /* LYJNaviVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYJNaviVc.m; sourceTree = "<group>"; };
+		385098FD1CC78FE5006D998C /* FriendTrends.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendTrends.xib; sourceTree = "<group>"; };
 		38697B681CC5E241002AAC88 /* SolveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38697B6C1CC5E241002AAC88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		38697B6E1CC5E241002AAC88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		38697B6F1CC5E241002AAC88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		38697B711CC5E241002AAC88 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		38697B721CC5E241002AAC88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		38697B771CC5E241002AAC88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38697B7C1CC5E241002AAC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38697B811CC5E241002AAC88 /* SolveDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolveDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,8 +63,6 @@
 		38697B8C1CC5E241002AAC88 /* SolveDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolveDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38697B901CC5E241002AAC88 /* SolveDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolveDemoUITests.m; sourceTree = "<group>"; };
 		38697B921CC5E241002AAC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38697B9E1CC621D8002AAC88 /* LYJTabBarVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYJTabBarVc.h; sourceTree = "<group>"; };
-		38697B9F1CC621D8002AAC88 /* LYJTabBarVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYJTabBarVc.m; sourceTree = "<group>"; };
 		38697BA51CC628AA002AAC88 /* LYJEssenceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYJEssenceVC.h; sourceTree = "<group>"; };
 		38697BA61CC628AA002AAC88 /* LYJEssenceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYJEssenceVC.m; sourceTree = "<group>"; };
 		38697BA81CC628B7002AAC88 /* LYJNewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYJNewVC.h; sourceTree = "<group>"; };
@@ -67,8 +74,6 @@
 		38697BB11CC63C57002AAC88 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		38697BB31CC63D00002AAC88 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		38697BB41CC63D00002AAC88 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		38697BB61CC63F30002AAC88 /* LYJTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYJTabBar.h; sourceTree = "<group>"; };
-		38697BB71CC63F30002AAC88 /* LYJTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYJTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +101,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		385098F21CC75CF5006D998C /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				385098F31CC75CF5006D998C /* LYJTabBar.h */,
+				385098F41CC75CF5006D998C /* LYJTabBar.m */,
+				385098F51CC75CF5006D998C /* LYJTabBarVc.h */,
+				385098F61CC75CF5006D998C /* LYJTabBarVc.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		385098F71CC75CF5006D998C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				385098FA1CC774CC006D998C /* LYJNaviVc.h */,
+				385098FB1CC774CC006D998C /* LYJNaviVc.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		38697B5F1CC5E241002AAC88 = {
 			isa = PBXGroup;
 			children = (
@@ -119,16 +144,12 @@
 		38697B6A1CC5E241002AAC88 /* SolveDemo */ = {
 			isa = PBXGroup;
 			children = (
-				38697BB21CC63CA3002AAC88 /* Categories */,
 				38697B6E1CC5E241002AAC88 /* AppDelegate.h */,
 				38697B6F1CC5E241002AAC88 /* AppDelegate.m */,
-				38697B711CC5E241002AAC88 /* ViewController.h */,
-				38697B721CC5E241002AAC88 /* ViewController.m */,
-				38697B9E1CC621D8002AAC88 /* LYJTabBarVc.h */,
-				38697B9F1CC621D8002AAC88 /* LYJTabBarVc.m */,
-				38697BB61CC63F30002AAC88 /* LYJTabBar.h */,
-				38697BB71CC63F30002AAC88 /* LYJTabBar.m */,
 				38697BB11CC63C57002AAC88 /* PrefixHeader.pch */,
+				385098F21CC75CF5006D998C /* TabBar */,
+				385098F71CC75CF5006D998C /* Tools */,
+				38697BB21CC63CA3002AAC88 /* Categories */,
 				38697BA11CC6285B002AAC88 /* Essence */,
 				38697BA41CC62868002AAC88 /* New */,
 				38697BA21CC62868002AAC88 /* FriendTrends */,
@@ -180,6 +201,7 @@
 			children = (
 				38697BAB1CC628D4002AAC88 /* LYJFriendTrendsVC.h */,
 				38697BAC1CC628D4002AAC88 /* LYJFriendTrendsVC.m */,
+				385098FD1CC78FE5006D998C /* FriendTrends.xib */,
 			);
 			path = FriendTrends;
 			sourceTree = "<group>";
@@ -207,6 +229,8 @@
 			children = (
 				38697BB31CC63D00002AAC88 /* UIView+Extension.h */,
 				38697BB41CC63D00002AAC88 /* UIView+Extension.m */,
+				385098EF1CC757EF006D998C /* UIBarButtonItem+Extension.h */,
+				385098F01CC757EF006D998C /* UIBarButtonItem+Extension.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -317,6 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38697B781CC5E241002AAC88 /* Assets.xcassets in Resources */,
+				385098FE1CC78FE5006D998C /* FriendTrends.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,13 +366,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				385098F91CC75CF5006D998C /* LYJTabBarVc.m in Sources */,
 				38697BB51CC63D00002AAC88 /* UIView+Extension.m in Sources */,
+				385098FC1CC774CC006D998C /* LYJNaviVc.m in Sources */,
+				385098F81CC75CF5006D998C /* LYJTabBar.m in Sources */,
 				38697BA71CC628AA002AAC88 /* LYJEssenceVC.m in Sources */,
 				38697BAA1CC628B7002AAC88 /* LYJNewVC.m in Sources */,
 				38697BAD1CC628D4002AAC88 /* LYJFriendTrendsVC.m in Sources */,
-				38697BA01CC621D8002AAC88 /* LYJTabBarVc.m in Sources */,
-				38697BB81CC63F30002AAC88 /* LYJTabBar.m in Sources */,
-				38697B731CC5E241002AAC88 /* ViewController.m in Sources */,
+				385098F11CC757EF006D998C /* UIBarButtonItem+Extension.m in Sources */,
 				38697B701CC5E241002AAC88 /* AppDelegate.m in Sources */,
 				38697BB01CC628F2002AAC88 /* LYJMeVC.m in Sources */,
 				38697B6D1CC5E241002AAC88 /* main.m in Sources */,

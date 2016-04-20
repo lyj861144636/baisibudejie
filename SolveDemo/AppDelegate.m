@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "LYJTabBarVc.h"
-#import "ViewController.h"
+
 
 @interface AppDelegate ()
 

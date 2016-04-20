@@ -13,6 +13,7 @@
 #import "LYJMeVC.h"
 
 #import "LYJTabBar.h"
+#import "LYJNaviVc.h"
 
 @interface LYJTabBarVc ()
 
@@ -20,16 +21,19 @@
 
 @implementation LYJTabBarVc
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
+// 第一次使用这个类的的时候会调用用一次
++(void)initialize
+{
     // 设置tabBar 的标题颜色 和 字体大小  用appearance方法 可设置所有 避免了一个一个设置的麻烦
     // 通过appearance统一设置所有UITabBarItem的文字属性
     // 后面带有UI_APPEARANCE_SELECTOR的方法, 都可以通过appearance对象来统一设置
     UITabBarItem *item = [UITabBarItem appearance];
     [item setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:12], NSForegroundColorAttributeName:[UIColor grayColor]} forState:UIControlStateNormal];
-     [item setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:12], NSForegroundColorAttributeName:[UIColor darkGrayColor]} forState:UIControlStateSelected];
-    
+    [item setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:12], NSForegroundColorAttributeName:[UIColor darkGrayColor]} forState:UIControlStateSelected];
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
     
     // 图片的设置 这么设置 也的一个一个的设置 故可找到显示的图片 点击render as 选为 original 即可省略代码（7.0之后）
 //    UIImage *image = [UIImage imageNamed:@"tabBar_essence_click_icon"];
@@ -44,6 +48,8 @@
     [self tabBarVc:[[LYJMeVC alloc] init] title:@"我" image:@"tabBar_me_icon" selectedImage:@"tabBar_me_click_icon"];
     
     [self setValue:[[LYJTabBar alloc] init] forKeyPath:@"tabBar"];
+    
+    
 }
 
 /**
@@ -54,9 +60,10 @@
     vc.tabBarItem.title = title;
     vc.tabBarItem.image = [UIImage imageNamed:image];
     vc.tabBarItem.selectedImage = [UIImage imageNamed:selectedImage];
-    vc.view.backgroundColor = [UIColor colorWithRed:arc4random_uniform(100)/100.0 green:arc4random_uniform(100)/100.0 blue:arc4random_uniform(100)/100.0 alpha:1.0];
+//    vc.view.backgroundColor = [UIColor colorWithRed:arc4random_uniform(100)/100.0 green:arc4random_uniform(100)/100.0 blue:arc4random_uniform(100)/100.0 alpha:1.0];
     
-    [self addChildViewController:vc];
+    LYJNaviVc *navi = [[LYJNaviVc alloc] initWithRootViewController:vc];
+    [self addChildViewController:navi];
 }
 
 

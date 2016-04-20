@@ -16,8 +16,29 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // 设置导航栏标题
+    self.navigationItem.title = @"我的";
+    
+    // 设置导航栏右边的按钮
+    UIBarButtonItem *settingItem = [UIBarButtonItem itemWithImage:@"mine-setting-icon" highImage:@"mine-setting-icon-click" target:self action:@selector(settingClick)];
+    UIBarButtonItem *moonItem = [UIBarButtonItem itemWithImage:@"mine-moon-icon" highImage:@"mine-moon-icon-click" target:self action:@selector(moonClick)];
+    self.navigationItem.rightBarButtonItems = @[settingItem, moonItem];
+    self.view.backgroundColor = BackgroundColorRGB;
+
+
 }
+
+- (void)settingClick
+{
+    LYJLogFunc;
+}
+
+- (void)moonClick
+{
+    LYJLogFunc;
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
