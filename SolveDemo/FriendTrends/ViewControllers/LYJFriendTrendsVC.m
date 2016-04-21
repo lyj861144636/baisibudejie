@@ -7,6 +7,7 @@
 //
 
 #import "LYJFriendTrendsVC.h"
+#import "LYJRecommendVcViewController.h"
 
 @interface LYJFriendTrendsVC ()
 
@@ -25,9 +26,11 @@
 }
 
 
+// 左上角navi的点击事件
 - (void)friendsClick
 {
-    LYJLogFunc;
+    LYJRecommendVcViewController *vc = [[LYJRecommendVcViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

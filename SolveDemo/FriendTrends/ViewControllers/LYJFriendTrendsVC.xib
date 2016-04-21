@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LYJFriendTrendsVC">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="Iyu-nE-2SF"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lNJ-uI-yzW">
+                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="210" id="Lb8-dl-oMA"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="220" id="r1O-gv-37D"/>
+                    </constraints>
+                    <string key="text">快快登录吧, 关注百思最in牛人
+好友动态让你过把瘾儿~
+欧耶~~~~!</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Lb8-dl-oMA"/>
+                            <exclude reference="r1O-gv-37D"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <exclude reference="Lb8-dl-oMA"/>
+                            <include reference="r1O-gv-37D"/>
+                        </mask>
+                    </variation>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jjw-IR-fmv">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="EAS-gI-9jk"/>
+                        <constraint firstAttribute="width" constant="139" id="ShY-IX-UT9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="立即登录注册" backgroundImage="friendsTrend_login">
+                        <color key="titleColor" red="1" green="0.33585458639999999" blue="0.35948461520000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="friendsTrend_login_click">
+                        <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="EAS-gI-9jk"/>
+                            <exclude reference="ShY-IX-UT9"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="EAS-gI-9jk"/>
+                            <include reference="ShY-IX-UT9"/>
+                        </mask>
+                    </variation>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header_cry_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Byj-cP-Qsb">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="5JX-0K-nVT"/>
+                        <constraint firstAttribute="width" constant="48" id="O3R-8d-5Ht"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="5JX-0K-nVT"/>
+                            <exclude reference="O3R-8d-5Ht"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="5JX-0K-nVT"/>
+                            <include reference="O3R-8d-5Ht"/>
+                        </mask>
+                    </variation>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Jjw-IR-fmv" firstAttribute="top" secondItem="lNJ-uI-yzW" secondAttribute="bottom" constant="40" id="3Va-hg-1MB"/>
+                <constraint firstItem="lNJ-uI-yzW" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="BAs-QY-J5x"/>
+                <constraint firstItem="Jjw-IR-fmv" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Gq0-TT-kpk"/>
+                <constraint firstItem="Byj-cP-Qsb" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="bMW-gx-SHB"/>
+                <constraint firstItem="lNJ-uI-yzW" firstAttribute="top" secondItem="Byj-cP-Qsb" secondAttribute="bottom" constant="40" id="nRr-hz-kx2"/>
+                <constraint firstItem="lNJ-uI-yzW" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="pB5-Lg-t7X"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="lNJ-uI-yzW"/>
+                    <exclude reference="Jjw-IR-fmv"/>
+                    <exclude reference="Byj-cP-Qsb"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="3Va-hg-1MB"/>
+                    <exclude reference="Gq0-TT-kpk"/>
+                    <exclude reference="BAs-QY-J5x"/>
+                    <exclude reference="nRr-hz-kx2"/>
+                    <exclude reference="pB5-Lg-t7X"/>
+                    <exclude reference="bMW-gx-SHB"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="lNJ-uI-yzW"/>
+                    <include reference="Jjw-IR-fmv"/>
+                    <include reference="Byj-cP-Qsb"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="3Va-hg-1MB"/>
+                    <include reference="Gq0-TT-kpk"/>
+                    <include reference="BAs-QY-J5x"/>
+                    <include reference="nRr-hz-kx2"/>
+                    <include reference="pB5-Lg-t7X"/>
+                    <include reference="bMW-gx-SHB"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="friendsTrend_login" width="243" height="48"/>
+        <image name="friendsTrend_login_click" width="243" height="48"/>
+        <image name="header_cry_icon" width="48" height="48"/>
+    </resources>
+</document>
