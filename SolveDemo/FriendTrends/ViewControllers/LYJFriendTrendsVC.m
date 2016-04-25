@@ -8,6 +8,7 @@
 
 #import "LYJFriendTrendsVC.h"
 #import "LYJRecommendVcViewController.h"
+#import "LYJLoginRegisterVc.h"
 
 @interface LYJFriendTrendsVC ()
 
@@ -26,26 +27,19 @@
 }
 
 
-// 左上角navi的点击事件
+#pragma mark - 左上角navi的点击事件
 - (void)friendsClick
 {
     LYJRecommendVcViewController *vc = [[LYJRecommendVcViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark - 立即登录按钮的点击事件
+- (IBAction)login
+{
+    LYJLoginRegisterVc *vc = [[LYJLoginRegisterVc alloc] init];
+    [self presentViewController:vc animated:YES completion:nil];
 }
-*/
 
 @end

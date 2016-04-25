@@ -7,7 +7,7 @@
 //
 
 #import "LYJRecommendUserCell.h"
-#import <UIImageView+WebCache.h>
+
 
 @interface LYJRecommendUserCell()
 
@@ -25,7 +25,14 @@
     _modelUser = modelUser;
     [self.ImageViewHeader sd_setImageWithURL:[NSURL URLWithString:modelUser.header] placeholderImage:[UIImage imageNamed:@"defaultUserIcon"]];
     self.labName.text = modelUser.screen_name;
-    self.labCount.text = [NSString stringWithFormat:@"%zd人关注", modelUser.fans_count];
+    
+    NSString *subNumber = nil;
+    if (modelUser.fans_count < 10000) {
+        subNumber = [NSString stringWithFormat:@"%zd人关注", modelUser.fans_count];
+    } else { // 大于等于10000
+        subNumber = [NSString stringWithFormat:@"%.1f万人关注", modelUser.fans_count / 10000.0];
+    }
+    self.labCount.text = subNumber;
 }
 
 - (void)awakeFromNib {

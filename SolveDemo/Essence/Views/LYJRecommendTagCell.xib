@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tagCell" rowHeight="69" id="KGk-i7-Jjw" customClass="LYJRecommendTagCell">
+            <rect key="frame" x="0.0" y="0.0" width="317" height="69"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="317" height="68"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HSs-bL-iXP">
+                        <rect key="frame" x="10" y="9" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="cqS-4V-wbr"/>
+                            <constraint firstAttribute="height" constant="50" id="zlH-DV-Z67"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Bf-2U-ZLO">
+                        <rect key="frame" x="70" y="43" width="177" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ijT-1c-aKd">
+                        <rect key="frame" x="257" y="22" width="50" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="W2e-dU-MwB"/>
+                            <constraint firstAttribute="height" constant="25" id="d7i-Gn-CTF"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="+ 订阅" backgroundImage="FollowBtnBg">
+                            <color key="titleColor" red="1" green="0.33585458639999999" blue="0.35948461520000002" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <state key="highlighted" backgroundImage="FollowBtnClickBg">
+                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PYP-ly-hSV">
+                        <rect key="frame" x="70" y="9" width="177" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="PYP-ly-hSV" firstAttribute="top" secondItem="HSs-bL-iXP" secondAttribute="top" id="52O-Px-9zB"/>
+                    <constraint firstItem="HSs-bL-iXP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="26" id="5je-4R-GBx"/>
+                    <constraint firstItem="HSs-bL-iXP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="8dT-U2-TdP"/>
+                    <constraint firstItem="4Bf-2U-ZLO" firstAttribute="bottom" secondItem="HSs-bL-iXP" secondAttribute="bottom" id="HOK-q8-FSj"/>
+                    <constraint firstItem="4Bf-2U-ZLO" firstAttribute="leading" secondItem="PYP-ly-hSV" secondAttribute="leading" id="RgC-cF-wwS"/>
+                    <constraint firstItem="HSs-bL-iXP" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="TOY-Tm-3Nz"/>
+                    <constraint firstAttribute="trailing" secondItem="ijT-1c-aKd" secondAttribute="trailing" constant="10" id="VqB-UA-nxt"/>
+                    <constraint firstItem="PYP-ly-hSV" firstAttribute="leading" secondItem="HSs-bL-iXP" secondAttribute="trailing" constant="10" id="Vza-5g-xDg"/>
+                    <constraint firstItem="ijT-1c-aKd" firstAttribute="leading" secondItem="4Bf-2U-ZLO" secondAttribute="trailing" constant="10" id="jWR-1I-DdX"/>
+                    <constraint firstItem="ijT-1c-aKd" firstAttribute="leading" secondItem="PYP-ly-hSV" secondAttribute="trailing" constant="10" id="l7p-Jd-IBK"/>
+                    <constraint firstItem="ijT-1c-aKd" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="u7I-g3-3kC"/>
+                    <constraint firstItem="HSs-bL-iXP" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="wXp-BQ-YPw"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="5je-4R-GBx"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imageViewTag" destination="HSs-bL-iXP" id="xG6-Cg-TRW"/>
+                <outlet property="labCount" destination="4Bf-2U-ZLO" id="cmm-VV-vkn"/>
+                <outlet property="labTitle" destination="PYP-ly-hSV" id="vra-NE-Ur0"/>
+            </connections>
+            <point key="canvasLocation" x="416.5" y="218.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="FollowBtnBg" width="51" height="25"/>
+        <image name="FollowBtnClickBg" width="51" height="25"/>
+    </resources>
+</document>

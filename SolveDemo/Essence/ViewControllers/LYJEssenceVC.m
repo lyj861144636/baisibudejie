@@ -7,6 +7,7 @@
 //
 
 #import "LYJEssenceVC.h"
+#import "LYJRecommendTagVc.h"
 
 @interface LYJEssenceVC ()
 
@@ -29,9 +30,7 @@
 
 - (void)leftBtnClicked
 {
-    LYJLogFunc;
-    UIViewController *vc = [[UIViewController alloc] init];
-    vc.view.backgroundColor = [UIColor purpleColor];
+    LYJRecommendTagVc *vc = [[LYJRecommendTagVc alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

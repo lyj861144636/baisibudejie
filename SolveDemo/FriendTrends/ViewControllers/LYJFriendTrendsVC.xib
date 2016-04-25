@@ -51,7 +51,7 @@
                         <color key="titleColor" red="1" green="0.33585458639999999" blue="0.35948461520000002" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
                     <state key="highlighted" backgroundImage="friendsTrend_login_click">
-                        <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
                     <variation key="default">
                         <mask key="constraints">
@@ -65,6 +65,9 @@
                             <include reference="ShY-IX-UT9"/>
                         </mask>
                     </variation>
+                    <connections>
+                        <action selector="login" destination="-1" eventType="touchUpInside" id="ZNu-P3-JRI"/>
+                    </connections>
                 </button>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header_cry_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Byj-cP-Qsb">
                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
