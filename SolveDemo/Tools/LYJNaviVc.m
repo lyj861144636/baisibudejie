@@ -40,6 +40,7 @@
         //按钮内部内容左对齐
         backBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
         viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backBtn];
+        viewController.hidesBottomBarWhenPushed = YES;
     }
      [super pushViewController:viewController animated:animated];
     

@@ -20,4 +20,14 @@
 @property (nonatomic, copy) NSString *name;
 
 
+/** 每一个类别行里user数据 */
+@property (nonatomic, strong) NSMutableArray *arrRowUsers;
+
+
+/** 总数 */
+@property (nonatomic, assign) NSInteger total;
+/** 当前页码 */
+@property (nonatomic, assign) NSInteger currentPage;
+
+
 @end

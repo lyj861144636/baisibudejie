@@ -10,4 +10,11 @@
 
 @implementation LYJRecommendCategoryModel
 
+-(NSMutableArray *)arrRowUsers
+{
+    if (!_arrRowUsers) {
+        _arrRowUsers = [NSMutableArray array];
+    }
+    return _arrRowUsers;
+}
 @end
