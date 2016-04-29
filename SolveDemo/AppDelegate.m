@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "LYJTabBarVc.h"
+#import "LYJGuideView.h"
 
 
 @interface AppDelegate ()
@@ -27,6 +28,10 @@
     self.window.rootViewController = tabBarVc;
     [self.window makeKeyAndVisible];
     
+    
+
+    // 首次打开App引导页
+    [LYJGuideView show];
     return YES;
 }
 
