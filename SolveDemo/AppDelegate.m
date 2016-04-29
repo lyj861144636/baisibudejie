@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "LYJTabBarVc.h"
+#import "LYJGuideView.h"
+
 
 @interface AppDelegate ()
 
@@ -22,11 +24,14 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     
-    ViewController *vc = [[ViewController alloc] init];
-    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:vc];
-    self.window.rootViewController = navi;
+    UITabBarController *tabBarVc = [[LYJTabBarVc alloc] init];
+    self.window.rootViewController = tabBarVc;
     [self.window makeKeyAndVisible];
     
+    
+
+    // 首次打开App引导页
+    [LYJGuideView show];
     return YES;
 }
 
