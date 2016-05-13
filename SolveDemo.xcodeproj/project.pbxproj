@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		23F7F7C31E2A481B871DEAB4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9DDE7A90136568641DBA4C5 /* libPods.a */; };
+		383FDB3C1CE3173D00AFFEA6 /* LYJAllTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 383FDB3B1CE3173D00AFFEA6 /* LYJAllTableVC.m */; };
+		383FDB3F1CE3175C00AFFEA6 /* LYJVideoTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 383FDB3E1CE3175C00AFFEA6 /* LYJVideoTableVC.m */; };
+		383FDB421CE3177C00AFFEA6 /* LYJVoiceTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 383FDB411CE3177C00AFFEA6 /* LYJVoiceTableVC.m */; };
+		383FDB451CE3178E00AFFEA6 /* LYJPictureTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 383FDB441CE3178E00AFFEA6 /* LYJPictureTableVC.m */; };
+		383FDB481CE317A800AFFEA6 /* LYJWordTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 383FDB471CE317A800AFFEA6 /* LYJWordTableVC.m */; };
+		383FDB4B1CE333B600AFFEA6 /* LYJWordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 383FDB4A1CE333B600AFFEA6 /* LYJWordModel.m */; };
+		383FDB4F1CE335D500AFFEA6 /* LYJWordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 383FDB4D1CE335D500AFFEA6 /* LYJWordCell.m */; };
+		383FDB501CE335D500AFFEA6 /* LYJWordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 383FDB4E1CE335D500AFFEA6 /* LYJWordCell.xib */; };
 		3841BA781CCF17F200BF480A /* LYJVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3841BA771CCF17F200BF480A /* LYJVerticalButton.m */; };
 		3841BA7B1CCF5B6600BF480A /* LYJTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3841BA7A1CCF5B6600BF480A /* LYJTextField.m */; };
 		38441B231CC9F60E00227E02 /* LYJRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38441B211CC9F60E00227E02 /* LYJRecommendUserCell.m */; };
@@ -63,6 +71,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		383FDB3A1CE3173D00AFFEA6 /* LYJAllTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYJAllTableVC.h; sourceTree = "<group>"; };
+		383FDB3B1CE3173D00AFFEA6 /* LYJAllTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYJAllTableVC.m; sourceTree = "<group>"; };
+		383FDB3D1CE3175C00AFFEA6 /* LYJVideoTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYJVideoTableVC.h; sourceTree = "<group>"; };
+		383FDB3E1CE3175C00AFFEA6 /* LYJVideoTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYJVideoTableVC.m; sourceTree = "<group>"; };
+		383FDB401CE3177C00AFFEA6 /* LYJVoiceTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYJVoiceTableVC.h; sourceTree = "<group>"; };
+		383FDB411CE3177C00AFFEA6 /* LYJVoiceTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYJVoiceTableVC.m; sourceTree = "<group>"; };
+		383FDB431CE3178E00AFFEA6 /* LYJPictureTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYJPictureTableVC.h; sourceTree = "<group>"; };
+		383FDB441CE3178E00AFFEA6 /* LYJPictureTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYJPictureTableVC.m; sourceTree = "<group>"; };
+		383FDB461CE317A800AFFEA6 /* LYJWordTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYJWordTableVC.h; sourceTree = "<group>"; };
+		383FDB471CE317A800AFFEA6 /* LYJWordTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYJWordTableVC.m; sourceTree = "<group>"; };
+		383FDB491CE333B600AFFEA6 /* LYJWordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYJWordModel.h; sourceTree = "<group>"; };
+		383FDB4A1CE333B600AFFEA6 /* LYJWordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYJWordModel.m; sourceTree = "<group>"; };
+		383FDB4C1CE335D500AFFEA6 /* LYJWordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYJWordCell.h; sourceTree = "<group>"; };
+		383FDB4D1CE335D500AFFEA6 /* LYJWordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYJWordCell.m; sourceTree = "<group>"; };
+		383FDB4E1CE335D500AFFEA6 /* LYJWordCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYJWordCell.xib; sourceTree = "<group>"; };
 		3841BA761CCF17F200BF480A /* LYJVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYJVerticalButton.h; sourceTree = "<group>"; };
 		3841BA771CCF17F200BF480A /* LYJVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYJVerticalButton.m; sourceTree = "<group>"; };
 		3841BA791CCF5B6600BF480A /* LYJTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYJTextField.h; sourceTree = "<group>"; };
@@ -362,6 +385,8 @@
 			children = (
 				388C89391CCE112B002AA9A1 /* LYJRecommendTagModel.h */,
 				388C893A1CCE112B002AA9A1 /* LYJRecommendTagModel.m */,
+				383FDB491CE333B600AFFEA6 /* LYJWordModel.h */,
+				383FDB4A1CE333B600AFFEA6 /* LYJWordModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -371,6 +396,16 @@
 			children = (
 				388C89321CCE0F4B002AA9A1 /* LYJEssenceVC.h */,
 				388C89331CCE0F4B002AA9A1 /* LYJEssenceVC.m */,
+				383FDB3A1CE3173D00AFFEA6 /* LYJAllTableVC.h */,
+				383FDB3B1CE3173D00AFFEA6 /* LYJAllTableVC.m */,
+				383FDB3D1CE3175C00AFFEA6 /* LYJVideoTableVC.h */,
+				383FDB3E1CE3175C00AFFEA6 /* LYJVideoTableVC.m */,
+				383FDB401CE3177C00AFFEA6 /* LYJVoiceTableVC.h */,
+				383FDB411CE3177C00AFFEA6 /* LYJVoiceTableVC.m */,
+				383FDB431CE3178E00AFFEA6 /* LYJPictureTableVC.h */,
+				383FDB441CE3178E00AFFEA6 /* LYJPictureTableVC.m */,
+				383FDB461CE317A800AFFEA6 /* LYJWordTableVC.h */,
+				383FDB471CE317A800AFFEA6 /* LYJWordTableVC.m */,
 				388C89341CCE0F4B002AA9A1 /* LYJRecommendTagVc.h */,
 				388C89351CCE0F4B002AA9A1 /* LYJRecommendTagVc.m */,
 			);
@@ -383,6 +418,9 @@
 				388C893C1CCE12CE002AA9A1 /* LYJRecommendTagCell.h */,
 				388C893D1CCE12CE002AA9A1 /* LYJRecommendTagCell.m */,
 				388C893E1CCE12CE002AA9A1 /* LYJRecommendTagCell.xib */,
+				383FDB4C1CE335D500AFFEA6 /* LYJWordCell.h */,
+				383FDB4D1CE335D500AFFEA6 /* LYJWordCell.m */,
+				383FDB4E1CE335D500AFFEA6 /* LYJWordCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -545,6 +583,7 @@
 				385A616A1CD34A0900B2108F /* LYJGuideView.xib in Resources */,
 				384E0D321CC8D70B002552B2 /* LYJRecommendVcViewController.xib in Resources */,
 				38697B781CC5E241002AAC88 /* Assets.xcassets in Resources */,
+				383FDB501CE335D500AFFEA6 /* LYJWordCell.xib in Resources */,
 				384E0D341CC8D70B002552B2 /* LYJRecommendCell.xib in Resources */,
 				388C89491CCE2158002AA9A1 /* LYJLoginRegisterVc.xib in Resources */,
 				38441B241CC9F60E00227E02 /* LYJRecommendUserCell.xib in Resources */,
@@ -622,8 +661,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				388C893F1CCE12CE002AA9A1 /* LYJRecommendTagCell.m in Sources */,
+				383FDB4B1CE333B600AFFEA6 /* LYJWordModel.m in Sources */,
 				3841BA7B1CCF5B6600BF480A /* LYJTextField.m in Sources */,
 				385098F91CC75CF5006D998C /* LYJTabBarVc.m in Sources */,
+				383FDB481CE317A800AFFEA6 /* LYJWordTableVC.m in Sources */,
 				38441B271CC9FB4400227E02 /* LYJRecomendUserModel.m in Sources */,
 				388C89481CCE2158002AA9A1 /* LYJLoginRegisterVc.m in Sources */,
 				38441B231CC9F60E00227E02 /* LYJRecommendUserCell.m in Sources */,
@@ -632,12 +673,17 @@
 				388C89371CCE0F4B002AA9A1 /* LYJEssenceVC.m in Sources */,
 				388C89381CCE0F4B002AA9A1 /* LYJRecommendTagVc.m in Sources */,
 				385098FC1CC774CC006D998C /* LYJNaviVc.m in Sources */,
+				383FDB3C1CE3173D00AFFEA6 /* LYJAllTableVC.m in Sources */,
 				3841BA781CCF17F200BF480A /* LYJVerticalButton.m in Sources */,
 				385098F81CC75CF5006D998C /* LYJTabBar.m in Sources */,
+				383FDB451CE3178E00AFFEA6 /* LYJPictureTableVC.m in Sources */,
+				383FDB421CE3177C00AFFEA6 /* LYJVoiceTableVC.m in Sources */,
 				38697BAA1CC628B7002AAC88 /* LYJNewVC.m in Sources */,
+				383FDB4F1CE335D500AFFEA6 /* LYJWordCell.m in Sources */,
 				385098F11CC757EF006D998C /* UIBarButtonItem+Extension.m in Sources */,
 				385A61681CD349FD00B2108F /* LYJGuideView.m in Sources */,
 				38697B701CC5E241002AAC88 /* AppDelegate.m in Sources */,
+				383FDB3F1CE3175C00AFFEA6 /* LYJVideoTableVC.m in Sources */,
 				384E0D2F1CC8D70B002552B2 /* LYJFriendTrendsVC.m in Sources */,
 				384E0D331CC8D70B002552B2 /* LYJRecommendCell.m in Sources */,
 				384E0D1B1CC8B37F002552B2 /* LYJRecommendCategoryModel.m in Sources */,
