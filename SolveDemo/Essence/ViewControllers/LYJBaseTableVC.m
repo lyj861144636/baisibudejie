@@ -1,24 +1,18 @@
 //
-//  LYJWordTableVC.m
+//  LYJBaseTableVC.m
 //  SolveDemo
 //
-//  Created by hyp on 16/5/11.
+//  Created by hyp on 16/5/16.
 //  Copyright © 2016年 hyp. All rights reserved.
 //
 
-#import "LYJWordTableVC.h"
-
-#import <AFNetworking.h>
-#import <UIImageView+WebCache.h>
+#import "LYJBaseTableVC.h"
 #import "LYJWordModel.h"
-#import <MJExtension.h>
-#import <MJRefresh.h>
 #import "LYJWordCell.h"
 
-CGFloat const XMGTitilesViewH = 35;
-CGFloat const XMGTitilesViewY = 64;
 
-@interface LYJWordTableVC ()
+
+@interface LYJBaseTableVC ()
 /** 帖子数据 */
 @property (nonatomic, strong) NSMutableArray *topics;
 /** 当前页码 */
@@ -30,7 +24,8 @@ CGFloat const XMGTitilesViewY = 64;
 
 @end
 
-@implementation LYJWordTableVC
+@implementation LYJBaseTableVC
+
 
 - (NSMutableArray *)topics
 {
@@ -93,7 +88,7 @@ static NSString * const XMGTopicCellId = @"topic";
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
     params[@"a"] = @"list";
     params[@"c"] = @"data";
-    params[@"type"] = @"29";
+    params[@"type"] = @(self.type);
     self.params = params;
     
     // 发送请求
@@ -142,7 +137,7 @@ static NSString * const XMGTopicCellId = @"topic";
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
     params[@"a"] = @"list";
     params[@"c"] = @"data";
-    params[@"type"] = @"29";
+    params[@"type"] = @(self.type);
     NSInteger page = self.page + 1;
     params[@"page"] = @(page);
     params[@"maxtime"] = self.maxtime;

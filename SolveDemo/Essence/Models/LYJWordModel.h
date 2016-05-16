@@ -26,5 +26,4 @@
 @property (nonatomic, assign) NSInteger repost;
 /** 评论的数量 */
 @property (nonatomic, assign) NSInteger comment;
-
 @end

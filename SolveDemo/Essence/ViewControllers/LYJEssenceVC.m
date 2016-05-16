@@ -10,11 +10,7 @@
 #import "LYJRecommendTagVc.h"
 
 
-#import "LYJAllTableVC.h"
-#import "LYJVideoTableVC.h"
-#import "LYJVoiceTableVC.h"
-#import "LYJPictureTableVC.h"
-#import "LYJWordTableVC.h"
+#import "LYJBaseTableVC.h"
 
 
 @interface LYJEssenceVC () <UIScrollViewDelegate>
@@ -58,20 +54,30 @@
 #pragma mark - 创建 子控制器tablViewController
 - (void)setUpTableViewControllers
 {
-    LYJAllTableVC *all = [[LYJAllTableVC alloc] init];
+    LYJBaseTableVC *all = [[LYJBaseTableVC alloc] init];
+    all.title = @"全部";
+    all.type = LYJTopicTypeAll;
     [self addChildViewController:all];
     
-    LYJVideoTableVC *video = [[LYJVideoTableVC alloc] init];
+    LYJBaseTableVC *video = [[LYJBaseTableVC alloc] init];
+    video.title = @"视频";
+    video.type = LYJTopicTypeVideo;
     [self addChildViewController:video];
     
-    LYJVoiceTableVC *voice = [[LYJVoiceTableVC alloc] init];
+    LYJBaseTableVC *voice = [[LYJBaseTableVC alloc] init];
+    voice.title = @"音频";
+    voice.type = LYJTopicTypeVoice;
     [self addChildViewController:voice];
     
-    LYJPictureTableVC *pic = [[LYJPictureTableVC alloc] init];
+    LYJBaseTableVC *pic = [[LYJBaseTableVC alloc] init];
+    pic.title = @"图片";
+    pic.type = LYJTopicTypePicture;
     [self addChildViewController:pic];
     
     
-    LYJWordTableVC *word = [[LYJWordTableVC alloc] init];
+    LYJBaseTableVC *word = [[LYJBaseTableVC alloc] init];
+    word.title = @"段子";
+    word.type = LYJTopicTypeWord;
     [self addChildViewController:word];
 }
 
